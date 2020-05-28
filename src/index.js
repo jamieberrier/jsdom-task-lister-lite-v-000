@@ -3,8 +3,9 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelector("#create-task-form").addEventListener("submit", function(event) {
     const tasks = document.getElementById("tasks");
     let newTask = document.createElement('li');
-    newTask.textContent = document.getElementById('new-task-description').value;
-    //document.getElementById('new-task-due-date').value
+    let taskName = document.getElementById('new-task-description').value;
+    let taskDueDate = document.getElementById('new-task-due-date').value;
+    newTask.textContent = ;
     tasks.appendChild(newTask);
     event.preventDefault();
   }, false);
