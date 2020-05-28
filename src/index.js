@@ -5,7 +5,9 @@ document.addEventListener("DOMContentLoaded", () => {
     let newTask = document.createElement('li');
     let taskName = document.getElementById('new-task-description').value;
     let taskDueDate = document.getElementById('new-task-due-date').value;
+
     newTask.textContent = taskName + '-' + taskDueDate;
+
     tasks.appendChild(newTask);
     event.preventDefault();
   }, false);
