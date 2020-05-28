@@ -30,9 +30,9 @@ button {
 #create-task-form {
   position: relative;
   display: flex;
-  /*justify-content: center;
+  justify-content: center;
   align-items: center;
-  flex-direction: column;*/
+  /*flex-direction: column;*/
 }
 
 #list {
